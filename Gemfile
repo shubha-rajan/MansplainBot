@@ -7,6 +7,8 @@ ruby '2.5.1'
 # Twitterbot specific gems
 gem 'twitter', '~> 5.16'
 gem 'figaro'
+gem 'randumb'
+gem 'whenever', require: false
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
@@ -85,4 +87,3 @@ group :test do
   gem 'minitest-skip'
 end
 
-gem 'randumb'
